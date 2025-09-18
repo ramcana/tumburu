@@ -1,0 +1,1 @@
+export const getAudioUrl = (filename: string) => `/static/audio/${filename}`;

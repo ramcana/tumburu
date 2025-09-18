@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+*.log
+
+# Docker
+*.pid
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Additional ignores for modern full-stack project
+build/
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/.next/
+frontend/.turbo/
+frontend/.cache/
+frontend/coverage/
+frontend/.eslintcache
+frontend/public/*.map
+frontend/public/*.zip
+frontend/public/*.tar.gz
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.coverage
+backend/instance/
+backend/.env
+backend/.env.*
+*.bak
+*.tmp
+*.old
+.idea/
+*.swp
+/tests/**/*.log
+/tests/**/*.tmp
+/tests/**/*.out

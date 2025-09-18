@@ -1,0 +1,15 @@
+{
+  "name": "Tumburu",
+  "short_name": "Tumburu",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f1f5f9",
+  "description": "AI-powered music generation app",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
