@@ -24,7 +24,8 @@ Thumbs.db
 
 # Additional ignores for modern full-stack project
 build/
-frontend/package-lock.json
+# Remove this line to allow package-lock.json to be committed
+# frontend/package-lock.json
 frontend/yarn.lock
 frontend/.next/
 frontend/.turbo/
